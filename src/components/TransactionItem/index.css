@@ -1,0 +1,23 @@
+.container-l {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #cbd5e1;
+  padding: 3px;
+  border-radius: 3px;
+}
+.item {
+  margin: 7px;
+  width: 25%;
+  text-align: center;
+}
+.img-delete {
+  width: 25px;
+  height: 25px;
+}
+.delete-btn {
+  background-color: transparent;
+  border-width: 0;
+}
