@@ -33,7 +33,7 @@ const MoneyDetails = props => {
       <div className="inner-card">
         <p className="money-details-type">Your {type}</p>
         <p className="money" data-testId={testId}>
-          {amount}
+          Rs {amount}
         </p>
       </div>
     </div>

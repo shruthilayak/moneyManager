@@ -12,7 +12,7 @@ const TransactionItem = props => {
   return (
     <li className="container-l">
       <p className="item">{titleInput}</p>
-      <p className="item">{amountInput}</p>
+      <p className="item">Rs {amountInput}</p>
       <p className="item">{optionId}</p>
       <button className="delete-btn item" onClick={onDelete}>
         <img
